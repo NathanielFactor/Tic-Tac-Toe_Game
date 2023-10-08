@@ -98,7 +98,7 @@ public class Game {
 
             //Condition to check for draw
             counter++;
-            if (counter==9){
+            if ((counter==9) && (winCondition == null)){
                 winCondition = "Draw";
             }
         }
